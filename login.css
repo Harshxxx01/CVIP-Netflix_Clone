@@ -1,0 +1,95 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.455),rgba(0,0,0,0.455)), url(images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 97%;
+    height: 150vh;
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 5px;
+    padding-top:60px;
+    padding-left: 57px;
+    padding-bottom: 145px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.inputtext{
+    padding: 15px 45px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgb(68, 68, 68);
+    outline: none;
+    border: none;
+    align-items: center;
+}
+
+.Sign-In-Button{
+    font-family:sans-serif;
+    width: 83%;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgb(222, 0, 0);
+    outline: none;
+    border: none;
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.744);
+    width: 103%;
+    height: 40.5vh;
+    color: rgb(103, 103, 103);
+    font-size: 14px;
+    padding-top: 60px;
+    padding-left: 250px;
+}
+
+.container a{
+    color: rgb(103, 103, 103);
+    font-size: 12px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #272727;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 2px 24px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #3a3a3a;}
+.show {display: block;}
+
+

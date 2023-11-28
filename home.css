@@ -1,0 +1,203 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.814) 10px 80px 1500px inset        
+}
+
+.ham-icon{
+    padding-top:20px ;
+    padding-left: 40px;
+}
+
+.button {
+	background-color:transparent;
+	font-size: 14px;
+}
+
+.searchbutton {
+    position: absolute;
+	font-size: 22px;
+	width: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+.search {
+	position: absolute;
+	background-color: rgb(0, 0, 0);
+    color: white;
+	outline: none;
+	border: none;
+    padding: 0;
+	width: 0;
+	height: 27px;
+	z-index: 10;
+	transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+}
+
+.search:focus {
+	width: 363px; 
+}
+
+.expandright {
+	left: auto;
+	right: 150px; 
+}
+
+
+.back-video{
+    width: 98.8vw;
+    height: 100vh;
+    object-fit: cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.movie-title{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.buttons{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.intro{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    line-height: 21px;
+    font-size: 17px
+}
+
+.txt{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent,rgba(0, 0, 0, 0.64),#000000);
+    z-index: -2; 
+}
+
+/*-----------------------------videos----------------------------*/
+.vdo{
+    padding-left: 20px;
+    padding-bottom: 30px; ;
+}
+.videos{
+    object-fit: contain;
+    transition: transform 450ms;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+}
+.videos video:hover{
+    transform: scale(1.09);
+}
+.videos::-webkit-scrollbar{
+    display: none;
+}
+
+/*--------------------------recent----------------------------*/
+.recent{
+    padding-left: 20px;
+}
+.recent p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.recent-images{
+    object-fit: contain;
+    transition: transform 450ms;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.recent img:hover{
+    transform: scale(1.09);
+}
+.recent-images::-webkit-scrollbar{
+    display: none;
+}
+
+/*----------------------------new release----------------------*/
+.Release{
+    padding-left: 20px;
+}
+.Release p{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.New-Release{
+    object-fit: contain;
+    transition: transform 450ms;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.New-Release img:hover{
+    transform: scale(1.09);
+}
+.New-Release::-webkit-scrollbar{
+    display: none;
+}
+
+/*------------------------------bollywood----------------------*/
+.bolly{
+    padding-left: 20px;   
+}
+.bolly p{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.bollywwod-movies{
+    object-fit: contain;
+    transition: transform 450ms;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.bollywwod-movies img:hover{
+    transform: scale(1.09);
+}
+.bollywwod-movies::-webkit-scrollbar{
+    display: none;
+}
+
+/*-----------------------------originals-----------------------------*/
+.org{
+    padding-left: 20px;
+}
+.org p{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.originals{
+    object-fit: contain;
+    transition: transform 450ms;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.originals img:hover{
+    transform: scale(1.09 );
+}
+.originals::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+    

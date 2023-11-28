@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <link rel="icon" href="images/Netflix-Logo-PNG-Transparent-Image.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" height="43vh" ><br>
+        </div>
+    </header>
+    <div class="wrapper">
+        <form name="form1">
+            <div class="Sign-In-form">
+                <h1>Sign In</h1><br>
+                <div class="inputbox">
+                    <input type="text" id="email" class="inputtext" placeholder="Email or phone number" required><br><br>
+                    <input type="text" id="password" class="inputtext" placeholder="Password" required ><br><br>
+                </div>
+                <div class="sign-in-btn">    
+                    <button class="Sign-In-Button" formaction="profile.html">Sign-In</button><br>
+                </div>
+                <div class="check">    
+                    <input type="checkbox" checked="checked">
+                    <span class="check" style="font-size: 12px; padding-right: 36%; color:grey;">Remember me</span>
+                    <a style="font-size: 12px; color: grey" href="#">need help?</a> 
+                </div><br>
+                <div style="font-size: 14px; padding-top:40px; color: grey" class="new">
+                    <p>New to Netflix?<a href="#" style="color: white;">Sign up now</a></p><br>
+                </div>
+                <div style="font-size: 12px; color: grey" class="learn-more">
+                    <p>This page is protected by Google reCAPTCHA to<br>ensure you're not a bot.<a href="#" style="color: rgb(0, 145, 255)";>Learn more</a></p>
+                </div>
+            </div>
+        </form>
+    </div><br><br><br><br>
+    <div class="footer">
+        <div class="container">
+            <p>Questions? Call 000-800-919-1694</p><br><br>
+            <div class="row">
+                <div class="column">
+                    <a href="#">FAQ</a>
+                    <a href="#" style="padding-left: 200px;">Help Centre</a>
+                    <a href="#" style="padding-left: 200px;">Terms of Use</a>
+                    <a href="#" style="padding-left: 200px;">Privacy</a>
+                </div><br><br>
+                <div class="column">
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#" style="padding-left: 115px;">Corporate Information</a>
+                </div>
+            </div><br>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dbtn" style="padding:6px 9px; background-color:rgb(0, 0, 0); outline:0; border: 0.2em;; color:grey "><img src="images/grey-globe-icon-hi.png" width="20" height="20">&nbsp;&nbsp;English</button>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">hindi</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropDown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }          
+    </script>
+</body>
+</html>
